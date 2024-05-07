@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { IoIosAdd, IoIosRemove } from "react-icons/io";
-import LocomotiveScroll from 'locomotive-scroll';
+
 
 const FAQSection = () => {
   const [showAnswerIndex, setShowAnswerIndex] = useState(null);
@@ -27,15 +27,14 @@ const FAQSection = () => {
       answer: "There are several strategies you can use to drive traffic to your website, including search engine optimization (SEO), content marketing, social media marketing, email marketing, pay-per-click (PPC) advertising, and influencer partnerships. By implementing a combination of these strategies and consistently creating valuable content for your target audience, you can increase visibility and attract more visitors to your website."
     }
   ];
-  
-  const locomotive = new LocomotiveScroll()
+
 
   const toggleAnswer = (index) => {
     setShowAnswerIndex(showAnswerIndex === index ? null : index);
   };
 
   return (
-    <div className='lg:h-screen md:h-auto h-auto flex justify-center items-center' data-scroll data-scroll-speed="0.5">
+    <div className='lg:h-screen md:h-auto h-auto flex justify-center ' >
       <div className='bg-black my-0 md:my-16 w-full md:w-[50%]'>
         <h1 className='text-white text-3xl font-bold p-5'>FAQ Section</h1>
         <div className='border border-gray-300 p-5 md:p-10'>
