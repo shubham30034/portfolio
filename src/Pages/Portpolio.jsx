@@ -4,12 +4,11 @@ import React, { useContext, useEffect } from 'react';
 import PortfolioMain from './PortpolioMain';
 import PortpolioMiddle from '../component/PortpolioMiddle';
 import WhatWeOffer from '../component/WhatWeOffer';
-import LocomotiveScroll from 'locomotive-scroll';
+
 
 
 const Portpolio = () => {
 
-   const locomotiveScroll = new LocomotiveScroll()
 
 
   return (

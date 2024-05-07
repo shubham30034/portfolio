@@ -5,12 +5,12 @@ import MySkills from '../component/MySkills';
 import { useGSAP } from '@gsap/react';
 import gsap from "gsap";
 import PortpolioMiddle from '../component/PortpolioMiddle';
-import LocomotiveScroll from 'locomotive-scroll';
+
 
 
 const About = () => {
 
-    // const locomotiveScroll = new LocomotiveScroll()
+   
 
     const text = useRef();
     const img = useRef();
@@ -55,7 +55,7 @@ const About = () => {
                         <div className='h-px my-5 w-64 bg-yellow-500'></div>
                     </div>
                 </div>
-                <div className='w-[20%]' ref={img}>
+                <div className='lg:w-[20%] md:w-[30%] hidden md:block' ref={img}>
                     <img className='rounded' src="./image/PicsArt_07-03-10.15.48-03.jpeg" alt="" />
                 </div>
             </div>

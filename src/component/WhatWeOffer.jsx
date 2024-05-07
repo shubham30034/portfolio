@@ -20,7 +20,7 @@ const WhatWeOffer = () => {
         stagger: 2,
       });
     });
-  }, { scope: containerRef });
+  }, { scope: containerRef,revertOnUpdate: true  });
 
   return (
     <>

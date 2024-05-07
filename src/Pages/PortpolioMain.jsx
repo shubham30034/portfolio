@@ -1,12 +1,11 @@
 import React, { useRef } from 'react';
 import { useGSAP } from '@gsap/react';
 import gsap from "gsap";
-import PortpolioMiddle from '../component/PortpolioMiddle';
 
 const PortfolioMain = () => {
   const image1 = useRef();
   const image2 = useRef();
-  const container =  useRef();
+  const container = useRef();
   const tl = gsap.timeline({ yoyo:true, repeat:-1 });
 
   useGSAP(() => {
@@ -15,25 +14,25 @@ const PortfolioMain = () => {
 
   }, {});
 
-  useGSAP(()=>{
-    gsap.from("h1",{
-      x:500,
-      duration:1.5,
+  useGSAP(() => {
+    gsap.from("h1", {
+      x: 500,
+      duration: 1.5,
       ease: "power4.out"
     });
-    gsap.from("p",{
-      y:-500,
-      duration:0.8,
+    gsap.from("p", {
+      y: -200,
+      duration: 0.8,
       ease: "power4.out"
     });
-  },{scope:container});
+  }, { scope: container, revertOnUpdate: true });
 
   return (
-    <div  className='w-full flex justify-center absolute  h-screen ' ref={container}>
-      <div className='absolute md:left-[36%] left-[5%] top-[10%] z-30'>
-        <h1 className='text-yellow-400 md:text-4xl text-2xl text-center w-full animate-pulse'>Full Web Solution For <br /> Your Business Contact now Us</h1>
+    <div className='w-full flex justify-center absolute h-screen' ref={container}>
+      <div className='absolute md:left-1/4 lg:left-[35%] left-1/5 top-10 z-30'>
+        <h1 className='text-yellow-400 md:text-4xl text-2xl font-bold w-full animate-pulse text-center'>Full Web Solution For <br /> Your Business Contact Us</h1>
       </div>
-      <div className='absolute md:left-[18%] left-[5%] top-[32%] z-20 text-center'>
+      <div className='absolute md:left-1/5 left-1/20 top-32 z-20 text-center'>
         <p className='z-40 font-light text-center'>Having a strong online presence through a well-designed website can revolutionize your business. <br />A website serves as a digital storefront, open 24/7, allowing potential customers <br />to learn about your products and services at their convenience. <br />It provides a platform to showcase your brand identity, expertise, and unique selling points, helping to build trust and credibility with your audience.</p>
       </div>
 

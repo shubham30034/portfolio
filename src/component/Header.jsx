@@ -49,7 +49,7 @@ const Header = () => {
     
     <div
      ref={container}
-    className={`flex justify-between items-center px-20  h-[8vw] md:px-40  `} style={{ color: colors.text }}>
+    className={`flex justify-between items-center px-20  h-[153.6px] md:px-40  `} style={{ color: colors.text }}>
       <div>
         <img className=' w-24' src="./image/a-sophisticated-and-modern-logo-for-subhweb-a-cutt-2AW2oyEwTlC8VpuB1dqkow-v9c0XQVMSM-0RhqbiWUMpA.jpeg" alt="" />
       </div>
