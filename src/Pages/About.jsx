@@ -36,7 +36,7 @@ const About = () => {
     return (
         <>
             <div className='px-20 text-white flex justify-around' >
-                <div className='my-20' ref={text}>
+                <div className='md:my-20 my-2' ref={text}>
 
                     <h1
                         className='font-bold text-4xl tracking-widest leading-tight mb-8'

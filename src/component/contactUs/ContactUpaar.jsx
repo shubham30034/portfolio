@@ -32,7 +32,7 @@ const ContactUpaar = () => {
   };
 
   return (
-    <div data-scroll className='bg-black flex flex-col rounded-lg overflow-hidden'>
+    <div data-scroll className='bg-black flex flex-col rounded-lg overflow-hidden '>
       <div className='md:my-20 my-5 h-[100%] bg-gray-500 bg-opacity-20 backdrop-filter backdrop-blur-lg rounded-lg md:overflow-hidden overflow-scroll shadow-lg' ref={containerRef}>
         <div className='text-center'>
           <h1 className='text-4xl font-semibold my-5 tracking-wide'>Get in touch</h1>

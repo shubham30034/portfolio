@@ -53,7 +53,7 @@ const Header = () => {
      ref={container}
     className={`flex justify-between items-center px-20  h-[153.6px] md:px-40  `} style={{ color: colors.text }}>
       <div>
-        <img className=' w-24' src="./image/a-sophisticated-and-modern-logo-for-subhweb-a-cutt-2AW2oyEwTlC8VpuB1dqkow-v9c0XQVMSM-0RhqbiWUMpA.jpeg" alt="" />
+        <img className=' w-24' src="https://res.cloudinary.com/dtih6oqdb/image/upload/v1715188947/a-creative-logo-design-for-websubh-with-a-modern-a-HH-D4mVySEKtnPhipYQ_VQ-sVEqCVOqTNWs4uMy2FnD4A_siusnu.jpg" alt="" />
       </div>
       <div className='hidden md:block'>
         <ul className='flex  gap-8 '>
