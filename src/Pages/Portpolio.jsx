@@ -15,7 +15,7 @@ const Portpolio = () => {
     <div className=' ' >
       <PortfolioMain  />
       <div
-        className='absolute lg:top-[135%] md:top-[70%] top-[100%] w-full h-screen'
+        className='absolute lg:top-[135%] md:top-[70%] top-[60%] w-full h-screen'
       
       >
         <h1 className='text-4xl font-semibold p-2 text-center'>Our Services</h1>
