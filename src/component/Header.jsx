@@ -6,6 +6,8 @@ import { useGSAP } from '@gsap/react';
 import gsap from "gsap"
 import { useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 
 const Header = () => {
   const colors = useColors();
@@ -60,13 +62,14 @@ const Header = () => {
            <button onClick={handelContact}><li>Contact</li></button>
         </ul>
       </div>
-      <div className="hidden md:block">
-        <input
-          type="search"
-          placeholder="Search..."
-          className="p-1 w-24 rounded-lg border border-gray-600 focus:outline-none"
-          style={{ backgroundColor: colors.text }}
-        />
+      <div className="hidden md:flex md:gap-4  md:justify-center md:items-center">
+      <a href='https://www.linkedin.com/in/shubham-kundu-a942831b7' target="_blank" rel="noopener noreferrer" className='flex flex-col items-center sm:w-1/3'>
+       <button className=' text-2xl'><FaLinkedinIn/></button>
+       </a>
+      <a href='https://github.com/' target="_blank" rel="noopener noreferrer" className='flex flex-col items-center sm:w-1/3'>
+      <button className='  text-2xl' ><FaGithub/></button>
+       </a>
+       
       </div>
       <div className='md:hidden text-2xl'>
         <CiTextAlignJustify onClick={toggleSidebar} />

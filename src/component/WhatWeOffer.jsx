@@ -45,9 +45,9 @@ const WhatWeOffer = () => {
             </p>
           </div>
           <div className='w-full lg:w-1/4 relative'>
-            <img src="./image/e-commerse1.jpeg" alt="" className='rounded-lg shadow-md mb-2 lg:mb-0' />
-            <img src="./image/e-commerse2.jpeg" alt="" className='rounded-lg shadow-md mb-2 lg:mb-0 absolute top-0 left-1/2 transform -translate-x-1/2' />
-            <img src="./image/e-commerse3.jpeg" alt="" className='rounded-lg shadow-md mb-2 lg:mb-0 absolute top-0 left-1/2 transform -translate-x-1/2' />
+            <img src="https://res.cloudinary.com/dtih6oqdb/image/upload/v1715141486/e-commerse2_kaglwc.jpg" alt="" className='rounded-lg shadow-md mb-2 lg:mb-0' />
+            <img src="https://res.cloudinary.com/dtih6oqdb/image/upload/v1715141487/e-commerse1_qna38c.jpg" alt="" className='rounded-lg shadow-md mb-2 lg:mb-0 absolute top-0 left-1/2 transform -translate-x-1/2' />
+            <img src="https://res.cloudinary.com/dtih6oqdb/image/upload/v1715141487/e-commerse3_ipk0vb.jpg" alt="" className='rounded-lg shadow-md mb-2 lg:mb-0 absolute top-0 left-1/2 transform -translate-x-1/2' />
           </div>
         </div>
         
@@ -65,9 +65,9 @@ const WhatWeOffer = () => {
             </p>
           </div>
           <div className='w-full lg:w-1/4 relative'>
-            <img src="./image/res1.jpeg" alt="" className='rounded-lg shadow-md mb-2 lg:mb-0' />
-            <img src="./image/res2.jpeg" alt="" className='rounded-lg shadow-md mb-2 lg:mb-0 absolute top-0 left-1/2 transform -translate-x-1/2' />
-            <img src="./image/res33.jpeg" alt="" className='rounded-lg shadow-md mb-2 lg:mb-0 absolute top-0 left-1/2 transform -translate-x-1/2' />
+            <img src="https://res.cloudinary.com/dtih6oqdb/image/upload/v1715141493/res3_ksapum.jpg" alt="" className='rounded-lg shadow-md mb-2 lg:mb-0' />
+            <img src="https://res.cloudinary.com/dtih6oqdb/image/upload/v1715141493/res2_qcjipt.jpg" alt="" className='rounded-lg shadow-md mb-2 lg:mb-0 absolute top-0 left-1/2 transform -translate-x-1/2' />
+            <img src="https://res.cloudinary.com/dtih6oqdb/image/upload/v1715141492/res1_igsx0m.jpg" alt="" className='rounded-lg shadow-md mb-2 lg:mb-0 absolute top-0 left-1/2 transform -translate-x-1/2' />
           </div>
         </div>
         
@@ -85,9 +85,9 @@ const WhatWeOffer = () => {
             </p>
           </div>
           <div className='w-full lg:w-1/4 relative'>
-            <img src="./image/real1.jpeg" alt="" className='rounded-lg shadow-md mb-2 lg:mb-0' />
-            <img src="./image/real2.jpeg" alt="" className='rounded-lg shadow-md mb-2 lg:mb-0 absolute top-0 left-1/2 transform -translate-x-1/2' />
-            <img src="./image/real3.jpeg" alt="" className='rounded-lg shadow-md mb-2 lg:mb-0 absolute top-0 left-1/2 transform -translate-x-1/2' />
+            <img src="https://res.cloudinary.com/dtih6oqdb/image/upload/v1715141492/real3_eczmby.jpg" alt="" className='rounded-lg shadow-md mb-2 lg:mb-0' />
+            <img src="https://res.cloudinary.com/dtih6oqdb/image/upload/v1715141492/real2_jh375b.jpg" alt="" className='rounded-lg shadow-md mb-2 lg:mb-0 absolute top-0 left-1/2 transform -translate-x-1/2' />
+            <img src="https://res.cloudinary.com/dtih6oqdb/image/upload/v1715141491/real1_f3xajb.jpg" alt="" className='rounded-lg shadow-md mb-2 lg:mb-0 absolute top-0 left-1/2 transform -translate-x-1/2' />
           </div>
         </div>
 
@@ -105,9 +105,9 @@ const WhatWeOffer = () => {
             </p>
           </div>
           <div className='w-full lg:w-1/4 relative'>
-            <img src="./image/consult1.jpeg" alt="" className='rounded-lg shadow-md mb-2 lg:mb-0' />
-            <img src="./image/consult2.jpeg" alt="" className='rounded-lg shadow-md mb-2 lg:mb-0 absolute top-0 left-1/2 transform -translate-x-1/2' />
-            <img src="./image/consult3.jpeg" alt="" className='rounded-lg shadow-md mb-2 lg:mb-0 absolute top-0 left-1/2 transform -translate-x-1/2' />
+            <img src="https://res.cloudinary.com/dtih6oqdb/image/upload/v1715141487/consult3_jtaedk.jpg" alt="" className='rounded-lg shadow-md mb-2 lg:mb-0' />
+            <img src="https://res.cloudinary.com/dtih6oqdb/image/upload/v1715141486/consult1_moupln.jpg" alt="" className='rounded-lg shadow-md mb-2 lg:mb-0 absolute top-0 left-1/2 transform -translate-x-1/2' />
+            <img src="https://res.cloudinary.com/dtih6oqdb/image/upload/v1715141486/consult2_wdbwlt.jpg" alt="" className='rounded-lg shadow-md mb-2 lg:mb-0 absolute top-0 left-1/2 transform -translate-x-1/2' />
           </div>
         </div>
 
@@ -125,9 +125,9 @@ const WhatWeOffer = () => {
             </p>
           </div>
           <div className='w-full lg:w-1/4 relative'>
-            <img src="./image/fitness1.jpeg" alt="" className='rounded-lg shadow-md mb-2 lg:mb-0' />
-            <img src="./image/fitness2.jpeg" alt="" className='rounded-lg shadow-md mb-2 lg:mb-0 absolute top-0 left-1/2 transform -translate-x-1/2' />
-            <img src="./image/fitness3.jpeg" alt="" className='rounded-lg shadow-md mb-2 lg:mb-0 absolute top-0 left-1/2 transform -translate-x-1/2' />
+            <img src="https://res.cloudinary.com/dtih6oqdb/image/upload/v1715169883/fitness2_yrlecx.jpg" alt="" className='rounded-lg shadow-md mb-2 lg:mb-0' />
+            <img src="https://res.cloudinary.com/dtih6oqdb/image/upload/v1715169883/fitness2_yrlecx.jpg" alt="" className='rounded-lg shadow-md mb-2 lg:mb-0 absolute top-0 left-1/2 transform -translate-x-1/2' />
+            <img src="https://res.cloudinary.com/dtih6oqdb/image/upload/v1715141487/fitness1_fajovb.jpg" alt="" className='rounded-lg shadow-md mb-2 lg:mb-0 absolute top-0 left-1/2 transform -translate-x-1/2' />
           </div>
         </div>
 
@@ -145,9 +145,9 @@ const WhatWeOffer = () => {
             </p>
           </div>
           <div className='w-full lg:w-1/4 relative'>
-            <img src="./image/free1.jpeg" alt="" className='rounded-lg shadow-md mb-2 lg:mb-0' />
-            <img src="./image/free2.jpeg" alt="" className='rounded-lg shadow-md mb-2 lg:mb-0 absolute top-0 left-1/2 transform -translate-x-1/2' />
-            <img src="./image/free3.jpeg" alt="" className='rounded-lg shadow-md mb-2 lg:mb-0 absolute top-0 left-1/2 transform -translate-x-1/2' />
+            <img src="https://res.cloudinary.com/dtih6oqdb/image/upload/v1715170028/free2_s3rbwa.jpg" alt="" className='rounded-lg shadow-md mb-2 lg:mb-0' />
+            <img src="https://res.cloudinary.com/dtih6oqdb/image/upload/v1715170028/free1_xemdsf.jpg" alt="" className='rounded-lg shadow-md mb-2 lg:mb-0 absolute top-0 left-1/2 transform -translate-x-1/2' />
+            <img src="https://res.cloudinary.com/dtih6oqdb/image/upload/v1715141487/free3_kvvlwp.jpg" alt="" className='rounded-lg shadow-md mb-2 lg:mb-0 absolute top-0 left-1/2 transform -translate-x-1/2' />
           </div>
         </div>
       </div>

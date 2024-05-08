@@ -56,7 +56,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className='lg:w-[20%] md:w-[30%] hidden md:block' ref={img}>
-                    <img className='rounded' src="./image/PicsArt_07-03-10.15.48-03.jpeg" alt="" />
+                    <img className='rounded' src="https://res.cloudinary.com/dtih6oqdb/image/upload/v1715141490/PicsArt_07-03-10.15.48-03_bwcz42.jpg" alt="" />
                 </div>
             </div>
             <AboutSkills  />

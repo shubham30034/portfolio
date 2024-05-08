@@ -37,8 +37,8 @@ const PortfolioMain = () => {
       </div>
 
       <div className='relative'>
-        <img ref={image1} className='w-full opacity-65' src="./image/a-captivating-digital-illustration-with-a-vibrant--WvBobXGfTnmiFxRGnLA4fw-gxZ3lERoQFCYCg-drQ463g.jpeg" alt="" />
-        <img ref={image2} className='w-full top-0 left-0 absolute opacity-100' src="./image/a-captivating-and-dynamic-illustration-with-a-vibr-i3TMeMtrRkyZsHwv13TJJQ-gxZ3lERoQFCYCg-drQ463g.jpeg" alt="" />
+        <img ref={image1} className='w-full opacity-65' src="https://res.cloudinary.com/dtih6oqdb/image/upload/v1715141486/a-captivating-digital-illustration-with-a-vibrant--WvBobXGfTnmiFxRGnLA4fw-gxZ3lERoQFCYCg-drQ463g_kdgdhh.jpg" alt="" />
+        <img ref={image2} className='w-full top-0 left-0 absolute opacity-100' src="https://res.cloudinary.com/dtih6oqdb/image/upload/v1715141486/a-captivating-and-dynamic-illustration-with-a-vibr-i3TMeMtrRkyZsHwv13TJJQ-gxZ3lERoQFCYCg-drQ463g_z6fcy4.jpg" alt="" />
       </div>
     </div>
   );
