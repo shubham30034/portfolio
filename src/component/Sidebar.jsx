@@ -39,7 +39,7 @@ const Sidebar = ({ isOpen, onClose }) => {
                     </button>
                     <ul className='flex flex-col mt-10 space-y-4' ref={buttonRef}>
                         <li className='focus:bg-gray-700 focus:text-white focus:outline-none cursor-pointer font-bold text-3xl'>
-                            <button onTouchStart={() => {}} onTouchEnd={() => handleNavigation("/about")} className="py-2 px-4 w-full text-left hover:bg-gray-700">About</button>
+                            <button onTouchStart={() => {}} onTouchEnd={() => handleNavigation("/")} className="py-2 px-4 w-full text-left hover:bg-gray-700">About</button>
                         </li>
                         <hr />
                         <li className='focus:bg-gray-700 focus:text-white focus:outline-none cursor-pointer font-bold text-3xl'>

@@ -37,7 +37,7 @@ const Header = () => {
   };
 
   const handelAbout = ()=>{
-       navigate("/about")
+       navigate("/")
   }
   const handelPortfolio = ()=>{
        navigate("/portpolio")
