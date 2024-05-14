@@ -66,7 +66,7 @@ const Header = () => {
       <a href='https://www.linkedin.com/in/shubham-kundu-a942831b7' target="_blank" rel="noopener noreferrer" className='flex flex-col items-center sm:w-1/3'>
        <button className=' text-2xl'><FaLinkedinIn/></button>
        </a>
-      <a href='https://github.com/' target="_blank" rel="noopener noreferrer" className='flex flex-col items-center sm:w-1/3'>
+      <a href='https://github.com/shubham30034' target="_blank" rel="noopener noreferrer" className='flex flex-col items-center sm:w-1/3'>
       <button className='  text-2xl' ><FaGithub/></button>
        </a>
        
